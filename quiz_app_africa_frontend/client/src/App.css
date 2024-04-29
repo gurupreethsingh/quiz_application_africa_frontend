@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+      font-family: 'jost' , sans-serif;
+}
+
+nav{
+      z-index : 10001 !important; 
+}
+
+.gradientBg{
+      /* background: linear-gradient(99deg, #EE0AE5 , #5961F9 100%); */
+      background: linear-gradient(99deg, #00CCD2 , #009297 100%);
+}
+
+.btn1{
+      background:  #004d76;
+}
+
+
+.examlink{
+      color : gray;
+}
+
+.examlink:hover{
+      color:black;
+}
+
+.lastfootersection{
+      /* background: linear-gradient(99deg, #EE0AE5 , #5961F9 100%); */
+      background: linear-gradient(99deg, #00CCD2 , #009297 100%);
+}
+
+.subscribebutton{
+      color:white; background-color: #9e3efe; padding : 10px 20px; border: none; border-radius: 10px;
+}
+
+.subscribebutton:hover{
+      color:black; background-color: white; 
+}
