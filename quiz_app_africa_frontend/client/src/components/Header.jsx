@@ -46,77 +46,77 @@ const Header = () => {
             </li>
 
             <li className="nav-item dropdown examlink">
-              <a
+              <Link
                 className="nav-link dropdown-toggle"
-                href="#"
+                to="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Exam
-              </a>
+              </Link>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="#">
                     Action
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="#">
                     Another action
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="#">
                     Something else here
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
 
             <li className="nav-item examlink">
-              <a href="#" className="block">
+              <Link to="#" className="block">
                 Blog
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item hover:text-lightGray text-gray">
-              <a href="#" className="block hover:text-black">
+              <Link to="#" className="block hover:text-black">
                 Tutor
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item dropdown examlink">
-              <a
+              <Link
                 className="nav-link dropdown-toggle"
-                href="#"
+                to="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Dropdown
-              </a>
+              </Link>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="#">
                     Action
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="#">
                     Another action
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link className="dropdown-item" to="#">
                     Something else here
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -124,18 +124,18 @@ const Header = () => {
 
           {/* showing login and sign up buttons  */}
           <div className="space-x-12 hidden md:flex items-center">
-            <a href="#" className="flex lg:flex items-center examlink">
+            <Link to="#" className="flex lg:flex items-center examlink">
               <GoSignIn />
               <Link to="/sign-in" className="mx-1 bg-light px-2 py-1 rounded">
                 login
               </Link>
-            </a>
-            <a href="#" className="flex lg:flex items-center examlink">
+            </Link>
+            <Link to="#" className="flex lg:flex items-center examlink">
               <CgLogIn />
               <Link to="/sign-up" className="mx-1 bg-light px-2 py-1 rounded">
                 Sign Up
               </Link>
-            </a>
+            </Link>
           </div>
 
           {/* button login and sign up only show in mobile view */}
@@ -162,12 +162,12 @@ const Header = () => {
       >
         <ul className="gradientBg w-9/12 mx-auto rounded">
           <li className="nav-item hover:text-lightGray text-light text-center text-lg mt-2 mb-2">
-            <a href="#" className="block hover:text-lightGray">
+            <Link to="#" className="block hover:text-lightGray">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item hover:text-lightGray  text-center text-lg mt-2 mb-2">
-            <a href="#" className="block hover:text-lightGray">
+            <Link to="#" className="block hover:text-lightGray">
               <div className="btn-group">
                 <button
                   className="btn dropdown-toggle text-light"
@@ -179,36 +179,36 @@ const Header = () => {
                 </button>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="#">
                       Menu item
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="#">
                       Menu item
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="#">
                       Menu item
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
-            </a>
+            </Link>
           </li>
           <li className="nav-item hover:text-lightGray text-light text-center text-lg mt-2 mb-2">
-            <a href="#" className="block hover:text-lightGray">
+            <Link to="#" className="block hover:text-lightGray">
               Tutor
-            </a>
+            </Link>
           </li>
           <li className="nav-item hover:text-lightGray text-light text-center text-lg mt-2 mb-2">
-            <a href="#" className="block hover:text-lightGray">
+            <Link to="#" className="block hover:text-lightGray">
               Tutor
-            </a>
+            </Link>
           </li>
           <li className="nav-item hover:text-lightGray text-light text-center text-lg mt-2 mb-2">
-            <a href="#" className="block hover:text-lightGray">
+            <Link to="#" className="block hover:text-lightGray">
               <div className="btn-group">
                 <button
                   className="btn dropdown-toggle text-light"
@@ -220,23 +220,23 @@ const Header = () => {
                 </button>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="#">
                       Menu item
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="#">
                       Menu item
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <Link className="dropdown-item" to="#">
                       Menu item
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
